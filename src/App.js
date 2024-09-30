@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CampaignList from './Campaign';
+import CampaignList from './CampaignList';
 
 function App() {
   return (
