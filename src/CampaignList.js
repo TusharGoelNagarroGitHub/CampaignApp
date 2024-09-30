@@ -61,7 +61,7 @@ function CampaignList() {
             return;
         }
 
-        if ((startDate || endDate) && !inputName) {
+        if ((!startDate || !endDate) && !inputName) {
             alert("Enter both dates if name search is empty");
             return;
         }
